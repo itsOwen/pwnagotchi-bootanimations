@@ -10,6 +10,7 @@ Now you can add boot animations to your Pwnagotchi! I created this project while
 - 🐧 Pwnagotchi setup on Raspberry Pi
 - 📟 A Supported Screen, list can be found [here](https://github.com/jayofelony/pwnagotchi/tree/master/pwnagotchi/ui/hw)
 - 🔐 SSH access to your Pwnagotchi device
+- Tested on Jays image
 
 ## Instructions
 
