@@ -1,7 +1,3 @@
-Sure! I'll add a section at the end on how to create your own boot animations using Photoshop.
-
----
-
 # 🐾 Adding a Boot Animation to Pwnagotchi
 
 Now you can add boot animations to your Pwnagotchi! I created this project while building a Cyberpunk-themed Pwnagotchi for myself. I will be releasing a complete set as soon as it's finished. This guide will walk you through the process step-by-step.
