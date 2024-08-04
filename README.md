@@ -255,9 +255,7 @@ Enjoy your new boot animation! 🎉 Your Pwnagotchi is now even more personalize
 
 ## 🖼️ Creating Your Own Boot Animations with Photoshop
 
-### 1
-
-. Create a New Project
+### 1. Create a New Project
 
 - Open Photoshop and create a new project.
 - If you don't have photoshop use [Photopea](https://photopea.com/)
