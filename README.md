@@ -2,6 +2,9 @@
 
 Now you can add boot animations to your Pwnagotchi! I created this project while building a Cyberpunk-themed Pwnagotchi for myself. I will be releasing a complete set as soon as it's finished. This guide will walk you through the process step-by-step.
 
+![Arasaka](arasaka/frame002.png)
+![umbrellacorp](umbrellacorp/frame002.png)
+
 ## Prerequisites
 
 - 🐧 Pwnagotchi setup on Raspberry Pi
