@@ -89,6 +89,8 @@ Create a script to display the boot animation. **Make sure to replace the import
 
 The current code below is for the Waveshare 2.13 V4 screen, but you can change the screen type by following the guide below:
 
+Visit this link [Screen type](https://github.com/jayofelony/pwnagotchi/tree/master/pwnagotchi/ui/hw) and then select the file with your screen name, replace the ones as shown below:
+
 1. **Import the correct screen type**:
    - The line `from pwnagotchi.ui.hw import waveshare2in13_V4` should be replaced with the import corresponding to your specific screen type.
 
