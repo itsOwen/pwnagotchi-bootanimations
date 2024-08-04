@@ -1,3 +1,7 @@
+Sure! I'll add a section at the end on how to create your own boot animations using Photoshop.
+
+---
+
 # 🐾 Adding a Boot Animation to Pwnagotchi
 
 Now you can add boot animations to your Pwnagotchi! I created this project while building a Cyberpunk-themed Pwnagotchi for myself. I will be releasing a complete set as soon as it's finished. This guide will walk you through the process step-by-step.
@@ -40,7 +44,7 @@ sudo mv /home/pi/*.png /usr/local/bin/boot_animation_images/
 
 ### 4. Update the `fonts.py` File
 
-Update the `fonts.py` file to ensure proper font settings, Directly copy-paste in terminal:
+Update the `fonts.py` file to ensure proper font settings. Directly copy-paste in terminal:
 
 ```bash
 sudo tee /usr/local/lib/python3.11/dist-packages/pwnagotchi/ui/fonts.py > /dev/null << EOF
@@ -83,8 +87,6 @@ def setup(bold, bold_small, medium, huge, bold_big, small):
 EOF
 ```
 
-Sure, here's a more detailed explanation of what needs to be changed in the script, with specific instructions:
-
 ### 5. Create the Boot Animation Script
 
 Create a script to display the boot animation. **Make sure to replace the import and the `initialize` function with the correct screen type you are using**:
@@ -103,7 +105,7 @@ The current code below is for the Waveshare 2.13 V4 screen, but you can change t
 4. **Update the display type in the `config` dictionary**:
    - The line `'type': 'ws4'` should be updated to match your screen type.
 
-Directly copy paste in terminal:
+Directly copy-paste in terminal:
 
 ```bash
 sudo tee /usr/local/bin/boot_animation.py > /dev/null << EOF
@@ -250,3 +252,41 @@ https://www.reddit.com/r/pwnagotchi/comments/1ej5fsl/cyberpunk_rebecca_x_pwnagot
 Feel free to replace these placeholders with actual frames from your boot animation to give a visual preview.
 
 Enjoy your new boot animation! 🎉 Your Pwnagotchi is now even more personalized and stylish.
+
+## 🖼️ Creating Your Own Boot Animations with Photoshop
+
+### 1
+
+. Create a New Project
+
+- Open Photoshop and create a new project.
+- If you don't have photoshop use [Photopea](https://photopea.com/)
+- Set the dimensions to match your screen resolution (e.g., 250x122 pixels for Waveshare 2.13 V4).
+
+### 2. Design Your Animation Frames
+
+- Design each frame of your animation.
+- Keep each frame as a separate layer or save each frame as a separate file.
+- Ensure the background is black or white.
+
+### 3. Export Frames
+
+- Export each frame as a PNG file.
+  - Go to `File > Export > Export As`.
+  - Choose PNG as the format.
+  - Save each frame with a sequential naming convention (e.g., frame001.png, frame002.png, etc.).
+
+### 4. Transfer Frames to Pwnagotchi
+
+- Transfer the exported frames to your Pwnagotchi device using the SCP command provided in step 2 above.
+
+### 5. Update Boot Animation Script
+
+- Ensure the `boot_animation.py` script points to the directory containing your new frames.
+
+### 6. Test and Refine
+
+- Run the boot animation script to test your animation.
+- Refine your frames in Photoshop as needed and re-export until you achieve the desired effect.
+
+By following these steps, you can create and implement custom boot animations to give your Pwnagotchi a unique and personalized touch.
