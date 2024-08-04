@@ -18,7 +18,7 @@ Now you can add boot animations to your Pwnagotchi! I created this project while
 Open a terminal and SSH into your Pwnagotchi device:
 
 ```bash
-ssh pi@ip
+ssh pi@ip_address
 ```
 
 ### 2. Transfer the Boot Image
@@ -101,7 +101,7 @@ Visit this link [Screen type](https://github.com/jayofelony/pwnagotchi/tree/mast
    - The line `from pwnagotchi.ui.hw.libs.waveshare.epaper.v2in13_V4.epd2in13_V4 import EPD` should be updated based on your screen type.
 
 4. **Update the display type in the `config` dictionary**:
-   - The line `'type': 'ws4'` should be updated to match your screen type.
+   - The line `'type': 'ws4'` should be updated to match your screen type, find your screen code [here](https://github.com/jayofelony/pwnagotchi/blob/master/pwnagotchi/utils.py#L240-L501)
 
 Directly copy-paste in terminal:
 
