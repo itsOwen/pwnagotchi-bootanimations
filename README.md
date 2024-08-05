@@ -263,6 +263,7 @@ Enjoy your new boot animation! 🎉 Your Pwnagotchi is now even more personalize
 ### 2. Design Your Animation Frames
 
 - Design each frame of your animation.
+- Make the color of the image black and white which can be done using photoshop with one click, adjust the level of darkness according to yourself.
 - Keep each frame as a separate layer or save each frame as a separate file.
 - Ensure the background is black or white.
 
