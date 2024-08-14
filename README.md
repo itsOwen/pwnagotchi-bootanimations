@@ -1,5 +1,7 @@
 # 🐾 Adding a Boot Animation to Pwnagotchi
 
+![Bootanimation-Militech](militech/militech-anim.gif)
+Special thanks to [RasTacsko](https://github.com/RasTacsko) for Militech Boot animation: (Screen used: waveshare oled/lcd)
 ![Bootanimation](https://i.postimg.cc/bJxT8R64/tpmvhmsawvgd1.png)
 
 Now you can add boot animations to your Pwnagotchi! I created this project while building a Cyberpunk-themed Pwnagotchi for myself. I will be releasing a complete set as soon as it's finished. This guide will walk you through the process step-by-step.
