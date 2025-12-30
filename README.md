@@ -34,7 +34,7 @@ ssh pi@ip_address
 Connect to your Pwnagotchi via SSH and clone this repository:
 
 ```bash
-git clone https://github.com/V0r-T3x/pwnagotchi-bootanimations.git
+git clone https://github.com/itsOwen/pwnagotchi-bootanimations.git
 cd pwnagotchi-bootanimations
 ```
 
