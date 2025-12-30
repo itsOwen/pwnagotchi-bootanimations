@@ -1,6 +1,6 @@
 # 🐾 Adding a Boot Animation to Pwnagotchi
 
-![Bootanimation-Militech](militech/militech-anim.gif)
+![Bootanimation-Militech](assets/militech-anim.gif)
 
 Special thanks to [RasTacsko](https://github.com/RasTacsko) for Militech Boot animation: (Screen used: waveshare oled/lcd)
 
