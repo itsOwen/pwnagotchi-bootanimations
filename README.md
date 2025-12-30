@@ -49,7 +49,9 @@ sudo make install
 **Installation with a Specific Theme:**
 If you have a folder containing your animation images (e.g., inside a `themes` folder), you can install it directly:
 ```bash
-sudo make install THEME=./themes/cyberpunk
+sudo make install THEME=militech
+# or any custom path
+# sudo make install THEME=./themes/cyberpunk
 ```
 *Note: The theme folder should contain image files (png, jpg, bmp) or a gif.*
 
